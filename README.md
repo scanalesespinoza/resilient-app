@@ -8,7 +8,7 @@ This document provides essential information about "Resilient App" which is desi
 To set up this project, follow these steps:
 1. Clone the repository:
    ```
-   git clone [https://github.com/your-username/your-project-name.git](https://github.com/scanalesespinoza/resilient-app.git)
+   git clone https://github.com/your-username/your-project-name.git
    ```
 2. Navigate to the project directory:
    ```
