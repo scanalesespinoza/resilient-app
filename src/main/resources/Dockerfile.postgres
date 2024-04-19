@@ -1,0 +1,15 @@
+# Use the official Red Hat PostgreSQL 15 image
+FROM registry.redhat.io/rhel9/postgresql-15:latest
+
+# Set environment variables to configure the PostgreSQL instance
+ENV POSTGRESQL_DATABASE=resilientdb
+ENV POSTGRESQL_USER=user
+ENV POSTGRESQL_PASSWORD=password
+
+# Copy the initialization script into the container
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# Expose the default PostgreSQL port
+EXPOSE 5432
+
+# The base image has an ENTRYPOINT set to run PostgreSQL
