@@ -4,6 +4,9 @@
 ## About
 This document provides essential information about "Resilient App" which is designed to provide solutions for rate limiting and response time monitoring in database operations. This project uses innovative technologies to ensure efficient handling of high-load scenarios and improve system responsiveness.
 
+## Core Concepts
+The core concepts and patterns used in this repository, which are agnostic to Java or any specific framework, can be found in [docs/resilient_apps_pattern.md](docs/resilient_apps_pattern.md).
+
 ## Setup
 To set up this project, follow these steps:
 1. Clone the repository:
